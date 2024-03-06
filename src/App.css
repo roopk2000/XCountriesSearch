@@ -1,0 +1,38 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Each grid item will have a width of 300px */
+  gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+  width: 100px; /* Set the width of each grid item */
+  
+  margin :20px;
+  border: 0.5px solid grey; /* Add a solid border */
+  border-radius: 5px;
+
+}
+
+.grid-item img {
+  max-width: 100%; /* Ensure the image inside each grid item doesn't exceed the box size */
+  height: 50px;
+  object-fit: cover; /* Ensure the flag fills the img element */
+}
+.input {
+  /* padding-left: 400px; */
+  display: flex;  
+  justify-content: center;
+
+  align-items: center;
+}
+.ten{
+  width:400px;
+  height:25px;
+}
+/* .countryCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
